@@ -1,0 +1,94 @@
+body {
+    background-color: #333333;
+}
+
+.message_container .message {
+    padding: 2px 5px;
+}
+
+.message_container .e {background: #FBE3E4; color: #8a1f11;}
+.message_container .w {background: #FFF6BF; color: #514721;}
+.message_container .i {background: #E6EFC2; color: #264409;}
+
+.message_container .e a {color: #8a1f11;}
+.message_container .w a {color: #514721;}
+.message_container .i a {color: #264409;}
+
+a.header_logo {
+    font-family: tahoma;
+    font-weight: bold;
+    color: #060;
+}
+
+.header_container {
+    position: fixed;
+    top:0px;
+    width: 100%;
+    border-bottom: dashed #999 1px;
+    background-color: #fff;
+}
+
+.footer_container {
+    position: fixed;
+    bottom:0px;
+    width: 100%;
+}
+
+.container {
+    background-color: #fff;
+    height: 100%;
+    margin: 0 auto;
+    padding: 40px 5px 5px 5px;
+}
+
+#side {
+    width: 200px;
+    float:left;
+    padding:5px;
+}
+
+#main {
+    width: 780px;
+    float:left;
+}
+
+.tab_header {
+    float: left;
+    margin-bottom: 0;
+    padding: 0;
+    width: 100%;
+    background: none repeat scroll 0 0 #ddd;
+}
+
+.tab_header li {
+    float: left;
+}
+
+.tab_header li .tab_item {
+    position: relative;
+    border-top: none;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    height: 16px;
+    line-height: 16px;
+    margin: 4px 20px 0 5px;
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+.tab_header li .tab_item:hover {
+    background: none repeat scroll 0 0 #e6efc2;
+}
+
+.tab_header li.selected .tab_item, .tab_header li.selected .tab_item:hover {
+    background: none repeat scroll 0 0 #fff;
+}
+
+.tab_body {
+    float: left;
+    padding: 5px;
+    width: 100%;
+}

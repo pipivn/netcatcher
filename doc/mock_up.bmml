@@ -1,0 +1,48 @@
+<mockup version="1.0" skin="sketch" measuredW="921" measuredH="522" mockupW="763" mockupH="508">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="158" y="14" w="763" h="508" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Link" x="173" y="125" w="-1" h="-1" measuredW="86" measuredH="22" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>vnexpress.net</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="173" y="97" w="-1" h="-1" measuredW="80" measuredH="22" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>Crawler%20list%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Link" x="173" y="147" w="-1" h="-1" measuredW="80" measuredH="22" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>rongbay.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::VRule" x="314" y="125" w="-1" h="354" measuredW="5" measuredH="100" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::LinkBar" x="334" y="125" w="-1" h="-1" measuredW="230" measuredH="22" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs/>
+        <selectedIndex>0</selectedIndex>
+        <text>Content%2C%20Options%2C%20History%2C%20Log</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::TextArea" x="333" y="150" w="565" h="280" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="334" y="438" w="-1" h="-1" measuredW="53" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Save</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Button" x="394" y="437" w="-1" h="-1" measuredW="64" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Cancel</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

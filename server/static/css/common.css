@@ -1,0 +1,164 @@
+/******************************************************************************************
+/* RESET STYLE
+/******************************************************************************************
+
+/*
+Name: Reset Stylesheet
+Description: Resets browser's default CSS
+Author: Eric Meyer
+Author URI: http://meyerweb.com/eric/tools/css/reset/
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    color: #000305;
+    font: 11px/22px Arial,sans-serif;
+    line-height: 1.429;
+    text-align: left;
+    height:100%;
+}
+
+ol, ul {list-style: none;}
+
+blockquote, q {quotes: none;}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset {
+    border:none;
+}
+
+/******************************************************************************************
+/* COMMON STYLE
+/******************************************************************************************
+
+/***** Global *****/
+html {overflow-y: scroll;height:100%}
+
+
+/* Headings */
+h2 {font-size: 1.571em} /* 22px */
+h3 {font-size: 1.429em} /* 20px */
+h4 {font-size: 1.286em} /* 18px */
+h5 {font-size: 1.143em} /* 16px */
+h6 {font-size: 1em} /* 14px */
+
+h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+/* Anchors */
+
+a {outline: 0;}
+a img {border: 0px; text-decoration: none;}
+
+a:link, a:visited {
+    color: #3589DB;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #3589DB;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Paragraphs */
+
+p {margin-bottom: 1.143em;}
+* p:last-child {margin-bottom: 0;}
+
+strong, b {font-weight: bold;}
+em, i {font-style: italic;}
+
+/* Quotes */
+blockquote {font-style: italic;}
+cite {}
+q {}
+
+/* Form */
+
+fieldset {
+    border:none;
+    margin-bottom: 36px;
+    padding: 30px 20px 20px 20px;
+}
+
+
+input[type=text], textarea, select, input[type=password] {
+    font: 14px Arial,Helvetica,sans-serif;
+    padding: 2px;
+}
+
+input[type=text].short , textarea.short , select.short , input[type=password].short {
+    width:180px;
+}
+
+input[type="submit"] {
+    font-size: 11px;
+
+}
+
+fieldset.action {
+    background: none repeat scroll 0 0 #9DA2A6;
+    margin-top: -20px;
+}
+
+legend {
+    margin-top:20px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+dl {clear:both;}
+dt {float:left; text-align:right; width:100px; line-height:25px; margin:0 10px 10px 0;}
+dd {float:left; width:475px; line-height:25px; margin:0 0 10px 0;}
+
+/* HTML5 tags */
+
+header, section, footer,
+aside, nav, article, figure {
+    display: block;
+}
+
+.left {
+    float:left;
+}
+
+.inner
+{
+    margin:5px 15px 5px 3px;
+    padding: 5px;
+}
+
+.right
+{
+    float:right;
+}
+

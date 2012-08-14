@@ -1,0 +1,1 @@
+<pre><?php foreach ($histories as $line){ echo $line . '</br>'; }?> </pre>
